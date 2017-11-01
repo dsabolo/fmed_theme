@@ -7,3 +7,18 @@
   padding: 0;
   margin: 0;
 }
+
+
+.block-views-blocktitulos-carrera-catedra-block-1{
+
+
+}
+.block-views-blocktitulos-carrera-catedra-block-1 h2 {
+  font-size:35px !important;
+  font-weight: 100;
+  background: #999;
+  padding:15px;
+  color:#fff;
+  padding-top:70px;
+  padding-bottom: 70px;
+}
