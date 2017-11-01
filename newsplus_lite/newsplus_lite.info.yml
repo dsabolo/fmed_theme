@@ -1,7 +1,7 @@
-name: News+ Lite
+name: FMED
 type: theme
 base theme: classy
-description: 'A flexible, recolorable theme with many regions and a responsive, mobile-first layout.'
+description: 'Desarrollo de Theme Drupal Para FMED basadp en NewsPlus Lite theme'
 # core: 8.x
 libraries:
   - newsplus_lite/fontawesome
@@ -33,5 +33,5 @@ regions:
 # Information added by Drupal.org packaging script on 2016-07-18
 version: '8.x-1.0'
 core: '8.x'
-project: 'newsplus_lite'
+project: 'fmed'
 datestamp: 1468817044

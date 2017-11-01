@@ -11,6 +11,7 @@
   padding-top: 45px;
   padding-bottom: 5px;
 }
+
 @media (max-width: 767px) {
   .region-header-top-left,
   .region-header-top-right {
@@ -183,4 +184,10 @@
 }
 @media (max-width: 991px) {
   .subfooter-area { text-align: center; }
+}
+
+
+
+#sidebar-second {
+  padding-top:130px !important
 }
