@@ -29,13 +29,8 @@ pre {
   background-color: #ea722d;
 }
 #header {
-<<<<<<< HEAD
   background-color: #333;
   border-bottom-color: #ea722d;
-=======
-  background-color: #c07127;
-  border-bottom-color: #b06107;
->>>>>>> 62bff5b78855bc63faa327f22a9793cb89944c49
 }
 
 /* components: accordion */
@@ -66,11 +61,6 @@ input[type="button"] {
 .pre-header-area input[type="submit"]:hover,
 .header-top-area a.button:hover,
 .header-top-area input[type="submit"]:hover {
-<<<<<<< HEAD
-
-=======
-  background-color: #ea722d!important;
->>>>>>> 62bff5b78855bc63faa327f22a9793cb89944c49
 }
 a.button:hover,
 input[type="submit"]:hover,
