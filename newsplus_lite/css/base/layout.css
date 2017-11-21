@@ -188,7 +188,9 @@
 }
 
 /*Custom FMED */
-
+header {
+  background: #000
+}
 #header-top {
  background: #ded1c9 !important;
  background: #e8e8e8 !important;
