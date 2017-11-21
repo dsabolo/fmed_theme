@@ -29,8 +29,8 @@ pre {
   background-color: #ea722d;
 }
 #header {
-  background-color: #c07127;
-  border-bottom-color: #b06107;
+  background-color: #333;
+  border-bottom-color: #ea722d;
 }
 
 /* components: accordion */
@@ -56,13 +56,13 @@ input[type="button"] {
 .pre-header-area input[type="submit"],
 .header-top-area a.button,
 .header-top-area input[type="submit"] {
-  background-color: #c07127!important;
+
 }
 .pre-header-area a.button:hover,
 .pre-header-area input[type="submit"]:hover,
 .header-top-area a.button:hover,
 .header-top-area input[type="submit"]:hover {
-  background-color: #ea722d!important;
+
 }
 a.button:hover,
 input[type="submit"]:hover,

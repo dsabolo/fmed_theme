@@ -131,6 +131,7 @@ to-top:
   version: VERSION
   js:
     js/custom/to-top.js: { scope: 'footer' }
+    js/custom/fmed.js: { scope: 'footer' }
   dependencies:
     - core/jquery
 

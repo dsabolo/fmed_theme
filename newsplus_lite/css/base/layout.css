@@ -19,7 +19,7 @@
   }
 }
 #header {
-  border-bottom: 6px solid;
+  border-bottom: 9px solid;
   z-index: 499;
   position: relative;
 }
@@ -84,6 +84,7 @@
 #subfooter {
   padding-top: 15px;
   padding-bottom: 10px;
+  background: #fff
 }
 @media (min-width: 992px) {
   .no-sidebars #highlighted {
@@ -186,8 +187,117 @@
   .subfooter-area { text-align: center; }
 }
 
+/*Custom FMED */
 
+#header-top {
+ background: #ded1c9 !important;
+ background: #e8e8e8 !important;
+ background: #f8f8f8 !important;
+}
+#header-top-right {
+  display: flex;
+  align-items: right;
+  justify-content: flex-end;
+}
+.header-area .col-md-12 {
+  padding: 0;
+  margin: 0;
+}
+
+.node-content table thead {
+  background: #000;
+  color:#fff;
+}
+.node-content  table * {
+  border-color:#000;
+}
+
+#main-navigation ul.menu li {
+  text-align: center;
+  text-transform: uppercase;
+}
+#main-navigation ul.menu li a {
+  font-size: 15px;
+  /* line-height: 23px; */
+  padding: 8px 18px 8x !important;
+  color: #ffffff;
+  border: 1px #fff dotted;
+  margin: 4px;
+
+}
+#main-navigation ul.menu li a i {
+  margin-right:6px
+}
+
+@media (min-width:992px) {
+  #main-navigation ul.menu {
+    display: flex;
+  }
+  #main-navigation ul.menu li {
+    flex-grow: 1;
+  }
+}
+
+.logo-and-site-name-wrapper.clearfix {
+  max-width: 420px
+}
+
+#block-formulariodebusqueda {
+  width: 300px;
+  color:#333
+}
+#block-formulariodebusqueda h2 {
+  font-size:14px;
+  margin-bottom:0;
+  color:#333
+}
 
 #sidebar-second {
-  padding-top:130px !important
+  padding-top:30px !important
 }
+
+
+.view-slider-portada {
+  background: #999;
+}
+
+.sliderText {
+  background: rgba(0,0,0,0.6);
+  /* height: 100%; */
+  display: block;
+  height: 450px;
+  position: absolute;
+  top: 0;
+  max-width: 70%;
+}
+.sliderText img {
+  width: 100% !important;
+}
+.sliderText:hover {
+  text-decoration: none
+}
+.sliderText h2 {
+  padding:30px;
+  padding-top:50px;
+  color:#fff;
+  font-size: 40px;
+  padding-bottom: 10px;
+}
+.sliderText p {
+  padding:30px;
+  padding-top:0;
+  color:#fff;
+  font-size:20px;
+}
+.view-slider-portada .pager {
+  position: absolute;
+}
+
+.view-slider-portada .pager {
+  position: absolute;
+  padding: 0;
+  top: 300px;
+  right: 0;
+}
+
+
