@@ -1,6 +1,6 @@
 jQuery(document).ready(function(){
 
-    /**
+  /**
    * Menu Ppal Iconos
    */
   jQuery('#main-navigation ul.menu li:nth-child(1) a').html('<i class="glyphicon glyphicon-home"></i>'+jQuery('#main-navigation ul.menu li:nth-child(1) a').html());
@@ -10,6 +10,7 @@ jQuery(document).ready(function(){
   jQuery('#main-navigation ul.menu li:nth-child(5) a').html('<i class="glyphicon glyphicon-lock"></i>'+jQuery('#main-navigation ul.menu li:nth-child(5) a').html());
   jQuery('#main-navigation ul.menu li:nth-child(6) a').html('<i class="glyphicon glyphicon-chevron-right"></i>'+jQuery('#main-navigation ul.menu li:nth-child(6) a').html());
   jQuery('#main-navigation ul.menu li:nth-child(7) a').html('<i class="glyphicon glyphicon-earphone"></i>'+jQuery('#main-navigation ul.menu li:nth-child(7) a').html());
+
 
 
 

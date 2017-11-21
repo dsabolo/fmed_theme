@@ -241,7 +241,7 @@ header {
 }
 
 .logo-and-site-name-wrapper.clearfix {
-  max-width: 420px
+  max-width: 469px
 }
 
 #block-formulariodebusqueda {
@@ -262,21 +262,36 @@ header {
 .view-slider-portada {
   background: #999;
 }
+.view-slider-portada img {
+
+  width: 100%
+}
+.sliderPortada {
+  height: 450px;
+  overflow: hidden;
+  display: block;
+  background: #ccc
+}
+.sliderPortada:hover {
+  text-decoration:  none !important
+}
 
 .sliderText {
-  background: rgba(0,0,0,0.6);
+  background:#333;
   /* height: 100%; */
-  display: block;
-  height: 450px;
-  position: absolute;
+  display: flex;
+  height: 462px;
   top: 0;
-  max-width: 70%;
+  max-width: 67%;
+  flex-direction: column;
+  align-content: center;
+  z-index: 100;
+  position: absolute;
+  opacity:0.8;
 }
-.sliderText img {
-  width: 100% !important;
-}
+
 .sliderText:hover {
-  text-decoration: none
+  text-decoration: none !important
 }
 .sliderText h2 {
   padding:30px;
@@ -284,6 +299,7 @@ header {
   color:#fff;
   font-size: 40px;
   padding-bottom: 10px;
+
 }
 .sliderText p {
   padding:30px;
@@ -301,8 +317,7 @@ header {
   top: 300px;
   right: 0;
 }
-<<<<<<< HEAD
+.node__meta {
+  display: none;
+}
 
-
-=======
->>>>>>> 62bff5b78855bc63faa327f22a9793cb89944c49
