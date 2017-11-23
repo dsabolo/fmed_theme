@@ -217,6 +217,7 @@ header {
 #main-navigation ul.menu li {
   text-align: center;
   text-transform: uppercase;
+
 }
 #main-navigation ul.menu li a {
   font-size: 15px;
@@ -227,11 +228,36 @@ header {
   margin: 4px;
 
 }
+#main-navigation ul.menu li ul {
+  padding:10px;
+}
 #main-navigation ul.menu li a i {
   margin-right:6px
 }
 
+
+#main-navigation ul.menu li li a {
+  color: #fff;
+  border: 1px #fff dotted;
+  padding:6px;
+  display: block;
+}
+#main-navigation ul.menu li li a:hover {
+  background: #333;
+}
 @media (min-width:992px) {
+  #main-navigation ul.menu li ul{
+    margin-top:-6px;
+    padding: 10px;
+    padding-right:380px ;
+    padding-top:16px;
+    -webkit-box-shadow: 2px 9px 31px -8px rgba(0,0,0,0.75);
+    -moz-box-shadow: 2px 9px 31px -8px rgba(0,0,0,0.75);
+    box-shadow: 2px 9px 31px -8px rgba(0,0,0,0.75);
+  }
+  #main-navigation ul.menu li li a {
+    width: 370px;
+  }
   #main-navigation ul.menu {
     display: flex;
   }
