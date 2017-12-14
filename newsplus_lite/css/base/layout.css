@@ -368,7 +368,6 @@ header {
 }
 
 
-
 /** Widgets **/
 .paragraph--type--lanzadores- {
   margin-top:20px;
@@ -376,14 +375,39 @@ header {
 
 }
 .paragraph--type--lanzadores- div {
-   display: flex;
-   justify-content: center
+   display: block
 
 }
 .paragraph--type--lanzadores- div a {
-  padding:20px;
-  border: 1px dotted #ccc;
+  padding: 10px;
+  border: none;
   text-transform: uppercase;
-  margin:4px;
-  font-size:25px;
+  margin-bottom: 13px;
+  font-size: 15px;
+  display: block;
+  margin-bottom: 10px;
+  background:#efefef;
+  border:1px dotted;
+  -webkit-box-shadow: -1px 0px 5px 0px rgba(221,221,221,1);
+  -moz-box-shadow: -1px 0px 5px 0px rgba(221,221,221,1);
+  box-shadow: -1px 0px 5px 0px rgba(221,221,221,1);
+  transition:0.4s all
+}
+
+
+
+.paragraph--type--lanzadores- div a:hover {
+  text-decoration: none;
+  background:#ddd
+}
+
+
+.paragraph.paragraph--type--adjuntos {
+  padding:10px;
+  border:1px solid #ccc;
+  margin-bottom:20px
+}
+
+.paragraph--type--galeria-imagenes {
+  margin-bottom:30px;
 }
