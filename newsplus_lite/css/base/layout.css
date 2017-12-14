@@ -281,7 +281,9 @@ header {
 }
 
 #sidebar-second {
-  padding-top:30px !important
+  padding-top:30px !important;
+  padding-left:25px;
+  border-left:1px dotted;
 }
 
 
@@ -410,4 +412,19 @@ header {
 
 .paragraph--type--galeria-imagenes {
   margin-bottom:30px;
+}
+
+
+.field--name-field-galeria-imagenes {
+  display: flex;
+  flex-wrap: wrap;
+  background: #eee;
+  padding:15px
+}
+
+.field--name-field-galeria-imagenes .field__item {
+  margin:5px !important;
+}
+.field--name-field-galeria-imagenes .field__item img {
+  width: 170px;
 }

@@ -21,6 +21,8 @@ pre {
 .sidebar h2.title,
 #page .block-views h2.title {
   border-bottom-color: #c07127;
+  padding:10px;
+  background: #eee;
 }
 
 /* base: layout */
