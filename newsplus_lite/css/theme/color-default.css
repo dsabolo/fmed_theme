@@ -28,7 +28,7 @@ pre {
 /* base: layout */
 #pre-header,
 #header-top {
-  background-color: #ea722d;
+  background-color: transparent;
 }
 #header {
   background-color: #333;
@@ -150,6 +150,7 @@ textarea:focus {
 /* components: menu */
 ul.menu li a:hover {
   background-color: #eee;
+  color:#000;
 }
 ul.menu li.menu-item--collapsed > a:before,
 ul.menu li.menu-item--expanded > a:before,

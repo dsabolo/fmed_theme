@@ -138,13 +138,13 @@
 
   {# #header #}
   {% if page.navigation or page.header %}
-    <div id="header" class="colored-area {{ colored_area_class }}">
+    <div id="header" class="colored-area  container {{ colored_area_class }}">
       {% if mt_site_name %}
         <div class="site-name site-name__header">
           <a href="{{ path('<front>') }}" title="{{ 'Home'|t }}" rel="home">{{ mt_site_name }}</a>
         </div>
       {% endif %}
-      <div class="container">
+      <div class="containerd">
         {# #header-inside #}
         <div id="header-inside" class="clearfix">
           <div class="row">
