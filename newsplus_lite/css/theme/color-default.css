@@ -149,7 +149,7 @@ textarea:focus {
 
 /* components: menu */
 ul.menu li a:hover {
-  background-color: #ea722d;
+  background-color: #eee;
 }
 ul.menu li.menu-item--collapsed > a:before,
 ul.menu li.menu-item--expanded > a:before,
@@ -159,8 +159,7 @@ ul.menu li.menu-item--expanded > a:before,
 
 /* components: menu: superfish */
 #main-navigation .sf-menu ul {
-  background-color: #ea722d;
-
+  background-color: #eee ;
 }
 #pre-header .sf-menu ul,
 #header-top .sf-menu ul {
@@ -168,7 +167,8 @@ ul.menu li.menu-item--expanded > a:before,
 
 }
 #main-navigation .sf-menu > li.sfHover > a {
-  background-color: #ea722d;
+  background-color: #eee;
+  color:#000;
 }
 #pre-header .sf-menu > li.sfHover > a,
 #pre-header ul.menu li a:hover,
@@ -176,7 +176,7 @@ ul.menu li.menu-item--expanded > a:before,
 #header-top ul.menu li a:hover,
 #main-navigation .sf-menu ul li.sfHover>a,
 #main-navigation .sf-menu ul li a:hover {
-  background-color: #c07127;
+  background-color: #eee;
 }
 #pre-header .sf-menu ul li.sfHover>a,
 #pre-header .sf-menu ul li a:hover,

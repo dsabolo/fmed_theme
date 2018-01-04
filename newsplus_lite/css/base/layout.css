@@ -216,7 +216,7 @@ header {
 
 #main-navigation ul.menu li {
   text-align: center;
-  text-transform: uppercase;
+  text-transform: none;
 
 }
 #main-navigation ul.menu li a {
@@ -237,13 +237,15 @@ header {
 
 
 #main-navigation ul.menu li li a {
-  color: #fff;
+  color: #000;
   border: 1px #fff dotted;
-  padding:6px;
+  padding: 6px;
   display: block;
+  text-transform: none;
+  font-size:14px;
 }
 #main-navigation ul.menu li li a:hover {
-  background: #333;
+  background: rgb(201, 198, 198)
 }
 @media (min-width:992px) {
   #main-navigation ul.menu li ul{
@@ -251,12 +253,12 @@ header {
     padding: 18px;
     text-align:left;
     padding-top:16px;
-    -webkit-box-shadow: 2px 9px 31px -8px rgba(0,0,0,0.75);
-    -moz-box-shadow: 2px 9px 31px -8px rgba(0,0,0,0.75);
-    box-shadow: 2px 9px 31px -8px rgba(0,0,0,0.75);
+    -webkit-box-shadow: 2px 20px 31px -8px rgba(0,0,0,0.75);
+    -moz-box-shadow: 2px 20px 31px -8px rgba(0,0,0,0.75);
+    box-shadow: 2px 20px 31px -8px rgba(0,0,0,0.75);
   }
   #main-navigation ul.menu li li a {
-    width: 370px;
+    width: 275px;
   }
   #main-navigation ul.menu {
     display: flex;
