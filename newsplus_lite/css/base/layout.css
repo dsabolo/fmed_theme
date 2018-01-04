@@ -248,8 +248,8 @@ header {
 @media (min-width:992px) {
   #main-navigation ul.menu li ul{
     margin-top:-6px;
-    padding: 10px;
-    padding-right:380px ;
+    padding: 18px;
+    text-align:left;
     padding-top:16px;
     -webkit-box-shadow: 2px 9px 31px -8px rgba(0,0,0,0.75);
     -moz-box-shadow: 2px 9px 31px -8px rgba(0,0,0,0.75);
@@ -428,3 +428,6 @@ header {
 .field--name-field-galeria-imagenes .field__item img {
   width: 170px;
 }
+
+
+

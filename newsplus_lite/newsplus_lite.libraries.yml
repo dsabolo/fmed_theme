@@ -88,6 +88,7 @@ magnific-popup:
       js/magnific-popup/magnific-popup.css: {}
   js:
     js/magnific-popup/jquery.magnific-popup.min.js: {}
+    bootstrap/js/popper.min.js: {}
   dependencies:
     - core/jquery
 
