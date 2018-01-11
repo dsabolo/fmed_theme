@@ -62,7 +62,7 @@
   {% if page.pre_header_left or page.pre_header_right %}
     {# #pre-header #}
     <div id="pre-header" class="clearfix colored-area {{ colored_area_class }}">
-      <div class="container">
+      <div class="container-fluid">
         {# #pre-header-inside #}
         <div id="pre-header-inside" class="clearfix">
           <div class="row">
@@ -98,7 +98,7 @@
   {# #header-top #}
   {% if page.header_top_left or page.header_top_right %}
     <div id="header-top" role="banner" class="clearfix colored-area {{ colored_area_class }}">
-      <div class="container">
+      <div class="container-fluid">
         {# #header-top-inside #}
         <div id="header-top-inside" class="clearfix">
           <div class="row">
@@ -138,7 +138,7 @@
 
   {# #header #}
   {% if page.navigation or page.header %}
-    <div id="header" class="colored-area  container {{ colored_area_class }}">
+    <div id="header" class="colored-area  container-fluid {{ colored_area_class }}">
       {% if mt_site_name %}
         <div class="site-name site-name__header">
           <a href="{{ path('<front>') }}" title="{{ 'Home'|t }}" rel="home">{{ mt_site_name }}</a>
@@ -186,7 +186,7 @@
 {% if page.page_intro %}
   {# #page-intro #}
   <div id="page-intro" class="clearfix">
-    <div class="container">
+    <div class="container-fluid">
       <div class="row">
         <div class="col-md-12">
           {# #page-intro-inside #}
@@ -352,7 +352,7 @@
 {% if page.sub_footer_left or page.footer %}
   {# #subfooter #}
   <div id="subfooter" class="clearfix">
-    <div class="container">
+    <div class="container-fluid">
       {# #subfooter-inside #}
       <div id="subfooter-inside" class="clearfix">
         <div class="row">

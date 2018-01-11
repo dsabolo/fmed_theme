@@ -9,6 +9,7 @@
   float: left;
   margin-right: 15px;
   display: inline-block;
+  max-width: 350px;
 }
 .logo:hover {
   opacity: 0.9;

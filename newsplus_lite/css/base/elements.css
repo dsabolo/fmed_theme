@@ -11,7 +11,7 @@ body {
   color: #3f3f3f;
   line-height: 1.55;
   text-rendering: optimizeLegibility;
-  background-color: #d2d2d2;
+  background-color: #fff;
 }
 p {
   margin: 0;
@@ -201,14 +201,7 @@ h5,
 }
 .sidebar .block > h2,
 #page .block-views h2.title {
-  margin-top: 7px;
-  margin-bottom: 20px;
   font-size: 18px;
-  font-weight: 700;
-  color: #464646;
-  padding-bottom: 5px;
-  border-bottom: 1px solid;
-  text-transform: uppercase;
 }
 .node--view-mode-teaser h2.node__title,
 .node--view-mode-teaser h2.node__title {

@@ -8,8 +8,8 @@
 }
 .region-header-top-left,
 .region-header-top-right {
-  padding-top: 45px;
-  padding-bottom: 5px;
+  padding-top: 30px;
+  padding-bottom: 0px;
 }
 
 @media (max-width: 767px) {
@@ -19,7 +19,6 @@
   }
 }
 #header {
-  border-bottom: 9px solid;
   z-index: 499;
   position: relative;
 }
@@ -77,9 +76,9 @@
   padding-right: 15px;
 }
 #footer {
-  border-bottom: 6px solid #dadada;
   padding-top: 50px;
   padding-bottom: 25px;
+  background: #333;
 }
 #subfooter {
   padding-top: 15px;
@@ -189,7 +188,10 @@
 
 /*Custom FMED */
 header {
-  background: transparent
+
+}
+#header {
+  border-bottom:2px solid #ccc;
 }
 #header-top {
   background: transparent
@@ -221,8 +223,7 @@ header {
   font-size: 15px;
   /* line-height: 23px; */
   padding: 8px 18px 8x !important;
-  color: #ffffff;
-  border: 1px #fff dotted;
+  color: #000;
   margin: 4px;
 
 }
@@ -236,7 +237,6 @@ header {
 
 #main-navigation ul.menu li li a {
   color: #000;
-  border: 1px #fff dotted;
   padding: 6px;
   display: block;
   text-transform: none;
@@ -271,8 +271,9 @@ header {
 }
 
 #block-formulariodebusqueda {
-  width: 300px;
-  color:#333
+  width: 315px;
+  color:#333;
+  padding: 0 0 0 0 !important;
 }
 #block-formulariodebusqueda h2 {
   font-size:14px;
@@ -283,7 +284,6 @@ header {
 #sidebar-second {
   padding-top:30px !important;
   padding-left:25px;
-  border-left:1px dotted;
 }
 
 

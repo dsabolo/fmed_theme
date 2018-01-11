@@ -15,7 +15,11 @@
   padding: 15px 0 10px;
 }
 .sidebar .block {
-  padding: 0 0 40px 0;
+  background: #fafafa;
+  margin-bottom: 20px;
+  border-radius: 10px;
+  padding: 10px;
+
 }
 .footer-area .block {
   padding: 0 0 35px 0;

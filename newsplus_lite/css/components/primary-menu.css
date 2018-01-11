@@ -120,7 +120,6 @@ body:not(:target) .region-navigation .menu-toggle-target-show:target ~ .menu .me
   font-size: 15px;
   line-height: 23px;
   padding: 13px 18px 12px;
-  color: #ffffff;
 }
 #pre-header ul.menu li a,
 #header-top ul.menu li a {
