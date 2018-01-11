@@ -37,14 +37,8 @@ jQuery(document).ready(function(){
     jQuery('#main-content *').css('border-color',titleSection.attr('data-color'));
     jQuery('#toTop').css('color',titleSection.attr('data-color'));
     jQuery('#customTitle span').css('background',titleSection.attr('data-color'));
+    jQuery('#sidebar-second h2.title').css('background',titleSection.attr('data-color'));
 
   }
-
-
-
-
-
-
-
 
 });
